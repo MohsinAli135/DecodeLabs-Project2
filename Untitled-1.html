@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>DecodeLabs - Enterprise Web Suite</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for Professional Look -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="main-header">
+    <div class="logo">
+      <span class="logo-accent">Decode</span>Labs
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+      ☰
+    </button>
+    <nav class="nav-menu" id="navMenu">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN LAYOUT -->
+  <div class="page-layout">
+    
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-widget">
+        <h3>Architecture Overview</h3>
+        <p>Mobile-first base architecture leveraging native CSS Grid & Flexbox standards.</p>
+      </div>
+
+      <div class="sidebar-widget info-card">
+        <span class="badge">PRO TIP</span>
+        <h4>Fluid Scaling</h4>
+        <p>Elements adjust dynamically without breaking design symmetry across screen sizes.</p>
+      </div>
+    </aside>
+
+    <!-- MAIN BODY -->
+    <main class="main-body">
+      <div class="section-header">
+        <h2>Featured Solutions</h2>
+        <p>Engineered for high performance, accessibility, and modern responsive layouts.</p>
+      </div>
+      
+      <!-- CARDS CONTAINER -->
+      <div class="card-grid">
+        
+        <!-- CARD 1 -->
+        <article class="card">
+          <div class="card-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Data Analytics" class="card-img">
+            <span class="card-tag">Analytics</span>
+          </div>
+          <div class="card-content">
+            <h4>Fluid Typography</h4>
+            <p>Automated font scaling using CSS clamp() for seamless readability on any display size.</p>
+            <button class="btn">Explore Module &rarr;</button>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="card">
+          <div class="card-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="UI Design" class="card-img">
+            <span class="card-tag">UI/UX</span>
+          </div>
+          <div class="card-content">
+            <h4>Touch Optimization</h4>
+            <p>WCAG compliant touch targets optimized for precise interaction on mobile interfaces.</p>
+            <button class="btn">Explore Module &rarr;</button>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="card">
+          <div class="card-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=600&q=80" alt="Responsive Layout" class="card-img">
+            <span class="card-tag">System</span>
+          </div>
+          <div class="card-content">
+            <h4>Grid Architecture</h4>
+            <p>Seamless adaptability across standard breakpoints: 480px, 768px, and 1024px+.</p>
+            <button class="btn">Explore Module &rarr;</button>
+          </div>
+        </article>
+
+      </div>
+    </main>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="footer-content">
+      <p>&copy; 2026 DecodeLabs Architecture. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
